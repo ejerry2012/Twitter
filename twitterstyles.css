@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.main{
+    padding-top: 5rem;
+    font-family: sans-serif ;
+}
+.container h3{
+    padding: 10px 60px;
+    background-color: #26a7de; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+
+}
+
+.end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    margin-top: 8rem;
+
+}
+
+.end span{
+    color: #26a7de;
+    cursor: pointer;
+}

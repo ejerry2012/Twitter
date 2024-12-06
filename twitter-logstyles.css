@@ -1,0 +1,199 @@
+.input-icons i {
+    position: absolute;
+  
+  }
+  .text_empty{
+    background-color: antiquewhite;
+    padding: 50px;
+  }
+  
+  .input-icons {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .icon {
+    color: rgb(12, 12, 12);
+    text-align: center;
+    background-color: red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sign-up{
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #e5e9e3;
+    }
+    
+    .sign-up .reg-form h2{
+     text-align: center;   
+    }
+    
+    .sign-up .reg-form{
+    max-width: 500px;
+    min-width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px 1px #ccc;
+    border-radius: 8px;
+    }
+    
+    .sign-up .reg-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #26a7de;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    }
+    
+    
+    .sign-up .reg-form input[type="reset"]:active {opacity: 0.6;}
+    
+    .sign-up .reg-form #kl {
+        width: unset;
+    }
+    
+    .sign-up .reg-form label{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #333;
+    }
+    
+    .sign-up .reg-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    .sign-up .reg-form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 0px;
+    }
+    
+    .sign-up .reg-form input[type="reset"] {
+      cursor: pointer;
+    }
+  
+    .sign-up .reg-form input[type="submit"] {
+      cursor: pointer;
+    }
+  
+    .wrap-radio-btn {
+      position: relative;
+      display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start;
+    }
+    .radio-label {
+      width: auto !important;
+      padding: 0px !important;
+    }
+    .radio-input {
+      width: unset !important;
+      padding: unset !important;
+      margin-top: 12px !important;
+      margin-right: 10px !important;
+    }
+  
+  .i-area:hover {
+    cursor: pointer;
+  }
+  
+  
+  .sign-up .reg-form input[type="submit"] {
+    background-color:  #26a7de;
+    color: white;
+  }
+  
+  .sign-up .reg-form input[type="checkbox"] {
+    accent-color:  #26a7de;
+    color: white;
+  }
+    
+  .sign-up .reg-form input[type="radio"] {
+    accent-color:   #26a7de;
+    color: white;
+  }
+  
+  .sign-up .reg-form .login-text {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .sign-up .reg-form .twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: skyblue;
+    color: white;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .sign-up .reg-form .twitter:hover {
+    cursor: pointer;
+  }
+  
+  
+  .sign-up .reg-form .google {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: red;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sign-up .reg-form .google:hover {
+    cursor: pointer;
+  }
+  
+  .sign-up .reg-form .facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: blue;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sign-up .reg-form .facebook:hover {
+    cursor: pointer;
+  }
+  
+  
+  
+  
